@@ -1,0 +1,30 @@
+.button {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.primary {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.white {
+    color: var(--primary-hover);
+    background-color: var(--white);
+    border-color: var(--primary-hover);
+}
+
+.white:hover{
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+    color: var(--white);
+}
